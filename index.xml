@@ -22,6 +22,15 @@
 }]]></description>
         <link rel="website" href="https://dsgdnb.com">Website</link>
       </metadata>
+      <version name="0.1.9" author="DsgDnB" time="2026-08-27T00:00:00Z">
+        <changelog><![CDATA[- MIDI editor: the view mapping now reads the ACTIVE take's state. With a multi-take item the first take's state was read instead — it only updates on mouse-up, so during a hand scroll the line stuck to its screen spot until the mouse was released.
+- Hand scrolling / wheel panning during playback no longer makes the line wobble. It's still not perfectly smooth, and probably never can be, but it's much less annoying now :)
+- Seeks in Continuous Scrolling mode now teleport the line instantly instead of gliding
+- The "Pin in continuous scrolling" checkbox is gone from the settings]]></changelog>
+        <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.9/reaper_playhead-x64.dll</source>
+        <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.9/reaper_playhead.dylib</source>
+        <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.9/reaper_playhead.dylib</source>
+      </version>
       <version name="0.1.8" author="DsgDnB" time="2026-08-27T00:00:00Z">
         <changelog><![CDATA[- Trail and shadow gradients now fall off quadratically (x²) instead of linearly
 - Continuous scrolling no longer causes playhead jitter]]></changelog>

@@ -22,6 +22,13 @@
 }]]></description>
         <link rel="website" href="https://dsgdnb.com">Website</link>
       </metadata>
+      <version name="0.1.8" author="DsgDnB" time="2026-08-27T00:00:00Z">
+        <changelog><![CDATA[- Trail and shadow gradients now fall off quadratically (x²) instead of linearly
+- Continuous scrolling no longer causes playhead jitter]]></changelog>
+        <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.8/reaper_playhead-x64.dll</source>
+        <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.8/reaper_playhead.dylib</source>
+        <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.8/reaper_playhead.dylib</source>
+      </version>
       <version name="0.1.7" author="DsgDnB" time="2026-08-27T00:00:00Z">
         <changelog><![CDATA[Initial release.]]></changelog>
         <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.7/reaper_playhead-x64.dll</source>

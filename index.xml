@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="ReaSmoothPlayhead">
+  <metadata>
+    <description><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0 \fswiss Helvetica;}}\widowctrl\hyphauto
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaSmoothPlayhead\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Replaces REAPER's choppy native play cursor with a GPU-smooth playhead overlay, in the arrange view and the MIDI editor. Customizable line, trail, shadow and visual FX, with presets.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Windows and macOS only.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The settings window REQUIRES ReaImGui (install "ReaImGui: ReaScript binding for Dear ImGui" via ReaPack); the overlay itself works without it.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 After install, restart REAPER. Settings: Extensions > Smooth playhead.\par}
+}]]></description>
+    <link rel="website" href="https://dsgdnb.com">Website</link>
+  </metadata>
+  <category name="Extensions">
+    <reapack name="ReaSmoothPlayhead" type="extension" desc="ReaSmoothPlayhead">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0 \fswiss Helvetica;}}\widowctrl\hyphauto
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaSmoothPlayhead\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Replaces REAPER's choppy native play cursor with a GPU-smooth playhead overlay, in the arrange view and the MIDI editor. Customizable line, trail, shadow and visual FX, with presets.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Windows and macOS only.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The settings window REQUIRES ReaImGui (install "ReaImGui: ReaScript binding for Dear ImGui" via ReaPack); the overlay itself works without it.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 After install, restart REAPER. Settings: Extensions > Smooth playhead.\par}
+}]]></description>
+        <link rel="website" href="https://dsgdnb.com">Website</link>
+      </metadata>
+      <version name="0.1.7" author="DsgDnB" time="2026-08-27T00:00:00Z">
+        <changelog><![CDATA[Initial release.]]></changelog>
+        <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.7/reaper_playhead-x64.dll</source>
+        <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.7/reaper_playhead.dylib</source>
+        <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.1.7/reaper_playhead.dylib</source>
+      </version>
+    </reapack>
+  </category>
+</index>

@@ -22,6 +22,16 @@
 }]]></description>
         <link rel="website" href="https://dsgdnb.com">Website</link>
       </metadata>
+      <version name="0.2.1" author="DsgDnB" time="2026-08-29T00:00:00Z">
+        <changelog><![CDATA[- Continuous scrolling: fixed playhead offset and jitter at higher zoom levels on slower systems
+- MIDI editor: fixed playhead jitter with "Synchronize transport with main transport" enabled
+- MIDI editor: fixed the playhead drifting ahead of the notes in Beats timebases with tempo changes or fractional BPM
+- Re-triggering playback while already playing (e.g. spamming "Play (solo selected item)") now jumps the playhead instantly instead of gliding backward
+- Windows: fixed the playhead being invisible on some GPU/driver/display combos (additive rendering now works on both DWM and hardware overlay/MPO composition paths)]]></changelog>
+        <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.1/reaper_playhead-x64.dll</source>
+        <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.1/reaper_playhead.dylib</source>
+        <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.1/reaper_playhead.dylib</source>
+      </version>
       <version name="0.2.0" author="DsgDnB" time="2026-08-28T00:00:00Z">
         <changelog><![CDATA[- During rendering or track freeze, the custom playhead is no longer shown, and the native play cursor is now displayed in the render/freeze window
 - Improved playhead behavior during horizontal scrolling]]></changelog>

@@ -22,6 +22,12 @@
 }]]></description>
         <link rel="website" href="https://dsgdnb.com">Website</link>
       </metadata>
+      <version name="0.2.3" author="DsgDnB" time="2026-08-29T00:00:00Z">
+        <changelog><![CDATA[- Scrolling while playing is noticeably tighter — the line stays glued to the content when you drag the arrange, pan with the wheel or drag the scrollbar]]></changelog>
+        <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.3/reaper_playhead-x64.dll</source>
+        <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.3/reaper_playhead.dylib</source>
+        <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.3/reaper_playhead.dylib</source>
+      </version>
       <version name="0.2.2" author="DsgDnB" time="2026-08-29T00:00:00Z">
         <changelog><![CDATA[- Fix: the v0.2.1 packages accidentally shipped stale v0.1.9 binaries :)]]></changelog>
         <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.2/reaper_playhead-x64.dll</source>

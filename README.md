@@ -22,3 +22,7 @@ The plugin itself is closed-source; this repository only hosts the ReaPack index
 3. **Extensions → ReaPack → Browse packages…**, find **ReaSmoothPlayhead**, install it, then restart REAPER.
 
 > The settings window requires **ReaImGui** ("ReaImGui: ReaScript binding for Dear ImGui"), installed via ReaPack; the overlay itself works without it.
+
+## Discussion
+
+[Forum thread on Cockos](https://forum.cockos.com/showthread.php?t=310863)

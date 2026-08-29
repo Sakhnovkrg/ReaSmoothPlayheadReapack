@@ -9,6 +9,7 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 After install, restart REAPER. Settings: Extensions > Smooth playhead.\par}
 }]]></description>
     <link rel="website" href="https://dsgdnb.com">Website</link>
+    <link rel="website" href="https://forum.cockos.com/showthread.php?t=310863">Forum thread</link>
   </metadata>
   <category name="Extensions">
     <reapack name="ReaSmoothPlayhead" type="extension" desc="ReaSmoothPlayhead">
@@ -21,7 +22,14 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 After install, restart REAPER. Settings: Extensions > Smooth playhead.\par}
 }]]></description>
         <link rel="website" href="https://dsgdnb.com">Website</link>
+        <link rel="website" href="https://forum.cockos.com/showthread.php?t=310863">Forum thread</link>
       </metadata>
+      <version name="0.2.4" author="DsgDnB" time="2026-08-29T00:00:00Z">
+        <changelog><![CDATA[- Zoom stability fix]]></changelog>
+        <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.4/reaper_playhead-x64.dll</source>
+        <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.4/reaper_playhead.dylib</source>
+        <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.4/reaper_playhead.dylib</source>
+      </version>
       <version name="0.2.3" author="DsgDnB" time="2026-08-29T00:00:00Z">
         <changelog><![CDATA[- Scrolling while playing is noticeably tighter — the line stays glued to the content when you drag the arrange, pan with the wheel or drag the scrollbar]]></changelog>
         <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.3/reaper_playhead-x64.dll</source>

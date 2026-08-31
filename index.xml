@@ -24,6 +24,17 @@
         <link rel="website" href="https://dsgdnb.com">Website</link>
         <link rel="website" href="https://forum.cockos.com/showthread.php?t=310863">Forum thread</link>
       </metadata>
+      <version name="0.2.6" author="DsgDnB" time="2026-09-01T00:00:00Z">
+        <changelog><![CDATA[- Windows: non-ASCII theme names no longer create renamed duplicates in the theme list
+- Presets: the selected preset is now remembered across restarts
+- Presets: shows (modified) when the current style has unsaved changes
+- Renamed "Enabled" to "Enable Extension" to avoid confusion
+- Windows: fixed zipped themes with non-ASCII file names loading without images without
+- Added an API for controlling presets from scripts — see the documentation https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/blob/main/API.md]]></changelog>
+        <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.6/reaper_playhead-x64.dll</source>
+        <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.6/reaper_playhead.dylib</source>
+        <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.6/reaper_playhead.dylib</source>
+      </version>
       <version name="0.2.5" author="DsgDnB" time="2026-08-30T00:00:00Z">
         <changelog><![CDATA[- The trail now grows out from the playback start point as the playhead moves away, instead of appearing at full width immediately.
 - The playhead now moves smoothly at subpixel precision when zoomed out, eliminating pixel-grid jitter.

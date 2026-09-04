@@ -4,7 +4,7 @@
     <description><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0 \fswiss Helvetica;}}\widowctrl\hyphauto
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaSmoothPlayhead\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Replaces REAPER's choppy native play cursor with a GPU-smooth playhead overlay, in the arrange view and the MIDI editor. Customizable line, trail, shadow and visual FX, with presets.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b Windows and macOS only.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Windows, macOS, and Linux (0.2.7+).\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 The settings window REQUIRES ReaImGui (install "ReaImGui: ReaScript binding for Dear ImGui" via ReaPack); the overlay itself works without it.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 After install, restart REAPER. Settings: Extensions > Smooth playhead.\par}
 }]]></description>
@@ -17,13 +17,25 @@
         <description><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0 \fswiss Helvetica;}}\widowctrl\hyphauto
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaSmoothPlayhead\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Replaces REAPER's choppy native play cursor with a GPU-smooth playhead overlay, in the arrange view and the MIDI editor. Customizable line, trail, shadow and visual FX, with presets.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b Windows and macOS only.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Windows, macOS, and Linux (0.2.7+).\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 The settings window REQUIRES ReaImGui (install "ReaImGui: ReaScript binding for Dear ImGui" via ReaPack); the overlay itself works without it.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 After install, restart REAPER. Settings: Extensions > Smooth playhead.\par}
 }]]></description>
         <link rel="website" href="https://dsgdnb.com">Website</link>
         <link rel="website" href="https://forum.cockos.com/showthread.php?t=310863">Forum thread</link>
       </metadata>
+      <version name="0.2.7" author="DsgDnB" time="2026-09-01T00:00:00Z">
+        <changelog><![CDATA[- Linux is now fully supported!
+- Added saw wave pulse shape
+- Improved FX and added customization
+- Added cap on top of the line
+- MIDI Editor clipping at the top
+- Presets now sorted alphabetically]]></changelog>
+        <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead-x64.dll</source>
+        <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead.dylib</source>
+        <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead.dylib</source>
+        <source platform="linux-x64" file="reaper_playhead-x64.so">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead-x64.so</source>
+      </version>
       <version name="0.2.6" author="DsgDnB" time="2026-09-01T00:00:00Z">
         <changelog><![CDATA[- Windows: non-ASCII theme names no longer create renamed duplicates in the theme list
 - Presets: the selected preset is now remembered across restarts

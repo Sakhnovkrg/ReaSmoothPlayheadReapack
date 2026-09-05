@@ -34,7 +34,7 @@
         <source platform="win64" file="reaper_playhead-x64.dll">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead-x64.dll</source>
         <source platform="darwin-arm64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead.dylib</source>
         <source platform="darwin64" file="reaper_playhead.dylib">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead.dylib</source>
-        <source platform="linux-x64" file="reaper_playhead-x64.so">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead-x64.so</source>
+        <source platform="linux64" file="reaper_playhead-x64.so">https://github.com/Sakhnovkrg/ReaSmoothPlayheadReapack/releases/download/v0.2.7/reaper_playhead-x64.so</source>
       </version>
       <version name="0.2.6" author="DsgDnB" time="2026-09-01T00:00:00Z">
         <changelog><![CDATA[- Windows: non-ASCII theme names no longer create renamed duplicates in the theme list
